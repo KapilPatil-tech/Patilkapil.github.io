@@ -43,6 +43,8 @@ a {
     object-fit: cover;
     margin-bottom: 20px;
     border: 3px solid #007bff;
+    /* padding: auto; */
+
 }
 
 /* Hover Effect for Project Cards */
@@ -71,4 +73,33 @@ a {
 
 .btn:hover {
     background-color: #0056b3;
+}
+
+#contact {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+    margin-top: 40px;
+}
+
+.social-links {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.badge {
+    background-color: #e0e0e0;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #333;
 }
