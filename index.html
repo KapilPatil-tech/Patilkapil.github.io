@@ -3,61 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Kapil Patil | Engineering & Design Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Portfolio of Kapil Patil, an Engineering and Design enthusiast.">
-    <meta name="keywords" content="Kapil Patil, Portfolio, Engineering, Design, Python, Developer">
+    <meta name="description" content="Portfolio of Kapil Patil, an Engineering and Design enthusiast specializing in Python, Java, and digital design.">
+    <meta name="keywords" content="Kapil Patil, Portfolio, Engineering, Design, Python, Java, Developer">
     <meta name="author" content="Kapil Patil">
     <link rel="icon" href="favicon.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-         <!-- Add your hero image here -->
-    <img src="Image (4).jpg"  alt="Your Name" class="hero-img">
-    <h1>Hi, I'm Kapil Patil</h1>
-    <p>Engineering & Design Enthusiast</p>
-    
-    <!-- Resume Button -->
-    <a href="Resume.pdf" class="btn" target="_blank">Download Resume</a>
-    </header>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">KP.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero">
+        <div class="hero-container">
+            <div class="personal-details">
+                <p class="greeting">Hi, I'm</p>
+                <h1>Kapil Patil</h1>
+                <h2 class="subtitle">Engineering & Design Enthusiast</h2>
+                <p class="hero-desc">Bridging the gap between robust software architecture and creative design solutions.</p>
+                <a href="Resume.pdf" class="btn" target="_blank">Download Resume</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+            <div class="kapil-img">
+                <img src="Image (4).jpg" alt="Kapil Patil" class="hero-img"> 
+            </div>    
+        </div>
     </header>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project-grid">
-            <div class="card">
-                <h3>Project 1</h3>
-                <p>A brief description of what you built and the tools used.</p>
-                <a href="#">View Code</a>
+    <section id="about" class="section-alt">
+        <div class="container">
+            <h2>About Me</h2>
+            <p class="about-text">
+                I am an engineering student with a deep interest in both technical problem-solving and visual design. My technical coursework spans operating systems, object-oriented programming, and mathematical modeling. When I'm not writing Python scripts or configuring Java environments, I enjoy working on graphic design and video editing projects.
+            </p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Bachelor of Engineering</h3>
+                    <p class="university">Ahmedabad Institute of Technology, Ahmedabad</p>
+                    <p class="date">Expected Graduation: 2028</p>
+                    <ul class="coursework">
+                        <li><strong>Relevant Coursework:</strong> Object-Oriented Programming, Operating Systems, React JS, DBMS.</li>
+                    </ul>
+                </div>
             </div>
-            <div class="card">
-                <h3>Project 2</h3>
-                <p>Highlight a specific challenge you solved in this project.</p>
-                <a href="#">View Code</a>
+        </div>
+    </section>
+
+    <section id="projects" class="section-alt">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="card">
+                    <h3>Combinational Logic Circuit Design</h3>
+                    <p>Designed a complex combinational circuit with multiple inputs and a single output using CEDAR software. Simulated logic gates to ensure accurate hardware behavior.</p>
+                    <div class="card-tags">
+                        <span>CEDAR</span>
+                        <span>Logic Design</span>
+                    </div>
+                    <a href="#" class="project-link">View Details &rarr;</a>
+                </div>
+                <div class="card">
+                    <h3>Data Analysis & Curve Fitting Scripts</h3>
+                    <p>Developed Python scripts using NumPy and Pandas to calculate statistical moments and fit second-degree parabolas to datasets.</p>
+                    <div class="card-tags">
+                        <span>Python</span>
+                        <span>NumPy</span>
+                        <span>Pandas</span>
+                    </div>
+                    <a href="#" class="project-link">View Code &rarr;</a>
+                </div>
+                <div class="card">
+                    <h3>Digital Marketing Assets</h3>
+                    <p>Designed layout templates and promotional pamphlets using CorelDRAW. Edited promotional videos, adjusting aspect ratios (9:16) for social media and removing embedded text.</p>
+                    <div class="card-tags">
+                        <span>CorelDRAW</span>
+                        <span>Video Editing</span>
+                    </div>
+                    <a href="#" class="project-link">View Designs &rarr;</a>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="skills">
-    <h2>Skills & Technologies</h2>
-    <div class="skills-container">
-        <span class="badge">Python</span>
-        <span class="badge">Java</span>
-        <span class="badge">Git</span>
-        <span class="badge">HTML/CSS</span>
-        <span class="badge">VS Code</span>
-    </div>
-</section>
+        <div class="container">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-category">
+                <h3>Programming & Software</h3>
+                <div class="skills-container">
+                    <span class="badge">Python</span>
+                    <span class="badge">Java</span>
+                    <span class="badge">Git</span>
+                    <span class="badge">VS Code</span>
+                    <span class="badge">HTML/CSS</span>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h3>Design & Media</h3>
+                <div class="skills-container">
+                    <span class="badge">CorelDRAW</span>
+                    <span class="badge">Video Editing</span>
+                    <span class="badge">Layout Design</span>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h3>Core Concepts</h3>
+                <div class="skills-container">
+                    <span class="badge">Operating Systems</span>
+                    <span class="badge">Object-Oriented Programming</span>
+                    <span class="badge">AI Ethics</span>
+                    <span class="badge">Mathematical Modeling</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer>
-        <section id="contact">
-    <h2>Get In Touch</h2>
-    <p>Feel free to reach out if you have any questions or want to collaborate!</p>
-    <a href="mailto:kapilpatil1670@gmail.com" class="btn">Email Me</a>
-    <div class="social-links">
-        <a href="https://www.linkedin.com/in/patil-kapil-307571348/">LinkedIn</a> | 
-        <a href="https://github.com/KapilPatil-tech">GitHub</a>
-    </div>
-
+    <footer id="contact">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p>Whether you have a question, a project idea, or just want to discuss the latest IPL match, my inbox is always open.</p>
+            <a href="mailto:kapilpatil1670@gmail.com" class="btn">Email Me</a>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/patil-kapil-307571348/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/KapilPatil-tech" target="_blank">GitHub</a>
+            </div>
+            <p class="copyright">&copy; 2026 Kapil Patil. Built from scratch.</p>
+        </div>
+    </footer>
 </body>
 </html>
